@@ -1,0 +1,58 @@
+.ManuItem_c{
+    margin-top: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.menuItemLeft{
+    border-radius: 2rem;
+}
+.menuItemLeft img{
+    aspect-ratio: 2/1;
+    height: 100%;
+    width: auto;
+}
+.menuItemCheckBoxes{
+    background: #f2f2f2;
+    padding: 2rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+.menuItemRight{
+    gap: 1rem;
+}
+.menuItemTitle{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.menuItemTime{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.menuItemCheckBoxInput_c *{
+    cursor: pointer;
+}
+.menuItemCheckBox input[type=checkbox] {
+    accent-color: var(--primaryOrange);
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+    margin-right: .5rem;
+}
+.menuItemCheckBoxInput_c label{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.saucePrice{
+    font-size: 1.1rem;
+}
+.menuItemTotal{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.menuTotalBtn{
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 100%;
+}

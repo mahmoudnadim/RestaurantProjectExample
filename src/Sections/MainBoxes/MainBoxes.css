@@ -1,0 +1,33 @@
+.homeBoxes_c{
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background: #e6e6e6;
+}
+.homeBoxes{
+    width: 100%;
+}
+.homeBoxesTitle{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.homeBoxesCategories{
+    gap: 1rem;
+}
+.homeBoxesCategory{
+    padding: .5rem 2rem;
+    color: #333;
+    border: 2px solid #aeaeae;
+}
+.homeBoxesCategorySelected{
+    background: var(--primaryOrange);
+    color: #fff;
+    border: 2px solid transparent;
+}
+.homeBoxesCategory:hover{
+    background: #df9c4f;
+    color: #fff;
+}
+.homeBoxesCategories .btn{
+    width: auto;
+}

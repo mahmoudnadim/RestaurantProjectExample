@@ -1,0 +1,22 @@
+.testimonaltsTitle{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.testimonaltPhoto{
+    width: 3rem;
+}
+.testimonaltsBox{
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    border: 2px solid #e7e7e7;
+}
+.testimonaltAbout_c{
+    gap: .8rem;
+}
+.testimonaltName{
+    font-weight: 600;
+}
+.testimonaltJob{
+    font-size: .8rem;
+}

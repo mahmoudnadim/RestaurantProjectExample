@@ -1,0 +1,104 @@
+.cartContainer{
+    display: flex;
+    padding-top: 4rem;
+    padding-bottom: 4rem ;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 4rem;
+}
+.paymentContainer{
+    width: calc(65% - 2rem);
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 4rem 3rem;
+}
+.orderSummaryContainer {
+    width: calc(35% - 2rem);
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 4rem 3rem;
+    height: fit-content;
+}
+.paymentForm{
+    border: 1px solid #ccc;
+    padding: 5rem 3rem;
+    border-radius: 1rem;
+}
+.paymentForm input{
+    border: 1px solid #ccc;
+    padding: .5rem 0.8rem;
+    border-radius: .5rem;
+}
+.paymentForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.paymentForm .formGroup{
+    display: flex;
+    flex-direction: column;
+}
+.submitBtn{
+    padding: .5rem 3rem;
+    width: fit-content;
+    border-radius: .5rem;
+}
+.paymentForm .formContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.paymentTitle{
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    width: fit-content;
+    font-weight: 500;
+}
+.orderDetailsItem img{
+    width: 5rem;
+    max-width: 5rem;
+}
+.orderSummaryTitle{
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+.orderDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.orderDetailsItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+}
+.cartProductName{
+    font-size: 1rem;
+}
+.cartProductPrice{
+    font-size: .9rem;
+    color: #333;
+}
+.cartTotalContainer{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+.couponCodeLink{
+    color: var(--primary-color);
+    border-bottom: 1px solid transparent;
+    transition: all .2s ease-in-out;
+}
+.couponCodeLink:hover{
+    border-bottom: 1px solid var(--primary-color);
+}
+.resetCart{
+    padding: .8rem 1.5rem;
+    width: 100%;
+    padding: .5rem;
+    border-radius: .5rem;
+}

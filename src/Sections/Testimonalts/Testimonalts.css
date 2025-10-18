@@ -1,0 +1,18 @@
+.testimonalts_c{
+    padding: 2rem 0;
+}
+.testimonaltsTitle{
+    padding: 1rem;
+    text-align: center;
+}
+.testimonaltsBox{
+    width: 33.3%;
+}
+.testimonaltsBoxes{
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    gap: 1.5rem;
+}
+.testimonaltsBoxes::-webkit-scrollbar{
+    display: none;
+}

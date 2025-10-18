@@ -1,0 +1,75 @@
+.pageHero{
+    background: url("../../assets/images/pageHeroImg.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    padding: 8rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48vh;
+    max-height: 48vh;
+    border-radius: 0 0 1rem 1rem;
+}
+.pageHero .nav_c{
+    width: 100%;
+    top: 0;
+    background: #33333363;
+    position: fixed;
+}
+.pageHero .nav_c *{
+    color: #fff;
+}
+.pageHeroTitle{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.pageHeroLinks{
+    position: absolute;
+    bottom: 0;
+    left: 2rem;
+    padding: .5rem 2rem;
+    background: #f2f2f2;
+    border-radius: .2rem .2rem 0 0;
+    font-weight: 500
+}
+.menuMain{
+    gap: 2rem;
+    padding: 0 4rem;
+    margin: 4rem 0;
+}
+.mainAside {
+    background: #f0f0f0;
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.mainBoxes {
+    gap: 1rem;
+}
+.asideTitle {
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 700;
+    padding-bottom: .2rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #a7a7a7;
+}
+.asideLinks {
+    gap: .5rem;
+}
+.asideLink {
+    cursor: pointer;
+    background: #DB8726;
+    padding: .7rem 1rem;
+    border-radius: .2rem;
+    color: #fff;
+    font-weight: 600;
+}
+.asideLinkSelect {
+    background: #F19F3E;
+}
+.box img{
+    height: 13rem;
+}

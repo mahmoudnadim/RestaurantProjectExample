@@ -1,0 +1,20 @@
+.ourPhoto_c{
+    background:linear-gradient(0deg, rgba(0, 0, 0,.20), rgba(0, 0, 0, 0.20)), url("../../assets/images/ourPhoto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+.ourPhotoContent{
+    background: #000000c7;
+    width: 100%;
+    color: #fff;
+    gap: 1rem;
+}
+.ourPhotoTitle{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.ourPhotoContent p{
+    width: 50%;
+}

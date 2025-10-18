@@ -1,0 +1,40 @@
+
+.hero_c{
+    align-items: center;
+    height: 85vh;
+    justify-content: space-between;
+}
+.heroLeft{
+    width: 45%;
+    height: 65%;
+    gap: 2rem;
+    flex-direction: column;
+}
+.heroContent{
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.heroRight{
+    width: 40%;
+    height: 65%;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+.heroRight img{
+    object-fit: cover;
+    aspect-ratio: 1/1.1;
+    object-position: center;
+}
+.heroTitle{
+    font-size: 3rem;
+    font-weight: 700 !important;
+}
+.heroText{
+    font-weight: 600;
+}
+.heroDesc{
+    color: #7c7c7c;
+}
+.heroBtn{
+    padding: .8rem 1.5rem;
+}

@@ -1,0 +1,32 @@
+
+.nav_c{
+    padding: 1.5rem 8rem;
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid #c7c7c7;
+    z-index: 99;
+}
+.navList{
+    gap: 3rem;
+}
+.navLink{
+    color: #333;
+    font-weight: 500;
+    font-size: 1.2rem !important;
+}
+.navLink:hover{
+    color: var(--primaryOrange);
+}
+.cartBtn{
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+}
+.navBars{
+    font-size: 2rem;
+    display: none;
+}
+.navcart_c{
+    position: absolute;
+    right: 0;
+}
