@@ -9,7 +9,7 @@ export default function App() {
   return (
     <>
       <AllProvider>
-        <Router basename="/RestaurantExample/">
+        <Router>
           <Nav />
           <Routes>
             <Route path="/" element={<Home/>} />
