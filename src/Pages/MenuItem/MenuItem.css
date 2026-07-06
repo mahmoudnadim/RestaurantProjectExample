@@ -9,7 +9,6 @@
 .menuItemLeft img{
     aspect-ratio: 2/1;
     height: 100%;
-    width: auto;
 }
 .menuItemCheckBoxes{
     background: #f2f2f2;
