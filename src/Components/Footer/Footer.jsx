@@ -9,10 +9,10 @@ export default function Footer() {
             <div className="footerMain flex flex-col">
                 <div className="footerLogo"><img src={logo} alt="" /></div>
                 <p className="footerDesc">
-                    Lorem Ipsum is simply dummy text of
-                    the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's
-                    standard dummy
+                    Welcome to Burger Bliss,
+                    where we take your cravings
+                    to a whole new level! Our mouthwatering
+                    burgers are made from 100% beef
                 </p>
                 <div className="footerSub flex flex-col">
                     <p className="footerSubsText">Subscribe Our Newletter</p>
@@ -23,7 +23,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footerList">
-                <p className="footerListTitle">Home</p>
+                <a href='/' className="footerListTitle">Home</a>
                 <div className="footerLinks flex flex-col">
                     <a className='footerLink' href="/">Testimonatls</a>
                     <a className='footerLink' href="/">Cookie settings</a>
@@ -32,7 +32,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footerList">
-                <p className="footerListTitle">Menu</p>
+                <a href='/menu' className="footerListTitle">Menu</a>
                 <div className="footerLinks flex flex-col">
                     <a className='footerLink' href="/">Hot Drink</a>
                     <a className='footerLink' href="/">Humburger</a>
@@ -41,7 +41,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footerList">
-                <p className="footerListTitle">About Us</p>
+                <a href='/contact' className="footerListTitle">Contact Us</a>
                 <div className="footerLinks flex flex-col">
                     <a className='footerLink' href="/">Help & Support</a>
                     <a className='footerLink' href="/">Terms of Service</a>
@@ -50,7 +50,7 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <p className="copyRight border-t-2 border-t-gray-500 text-center p-2">All Rights Reserved 2025 ©</p>
+        <p className="copyRight border-t-2 border-t-gray-500 text-center p-2">All Rights Reserved {new Date().getFullYear()} ©</p>
         </div>
     )
 }

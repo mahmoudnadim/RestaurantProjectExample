@@ -35,8 +35,8 @@ export default function MenuItem() {
                     <img src={getProduct.img} alt="" />
                 </div>
                 <div className="menuItemRight flex flex-col">
-                    <div className="menuItemTitle">Cheese Burger</div>
-                    <div className="menuItemTime">10hr 35m</div>
+                    <div className="menuItemTitle">{getProduct.name}</div>
+                    <div className="menuItemTime">{getProduct.time}</div>
                     <div className="menuItemCheckBoxes flex flex-col">
                         {getMenuItems}
                     </div>
